@@ -1,0 +1,9 @@
+count time:
+
+ptm <- proc.time()
+    proc.time() - ptm
+         system.time(a <- quickadd(g))
+
+dplyr: case_when
+read all csv files start with FINAL_: temp <- list.files(pattern='FINAL_+.*CSV')
+
