@@ -83,4 +83,27 @@ dmesg: recently actions linux kernel has taken
 dmesg | tail: last 10 lines of dmesg
 tail /var/log/syslog : check last 10 messages in the systems
 tail /var/log/syslog > logtail.txt : save /var/log/syslog to logtail.txt
+top: all kinds of information happend to your system
+htop: more advance than top
+
+caja: file manager
+killall caja: stop caja
+
+ifconfig: everyhting going on on your network
+ifconfig > aa.txt: save network info to aa.txt
+ping wwww.youtube.com: connect to youtube and return how long it takes to connect (quit: control + c)
+lsblk: check hard drives info
+sudo mount /dev/sda2 /mnt: mount /dev/sda2 /mnt drive
+sudo umount /dev/sda2
+sudo bikit:
+
+uname -a: tells you everything for your system
+history | less: history of bash
+cal : calenda
+sudo e4defrag /home -c: check fragment in your system
+sudo reboot: restart the system
+sudo shutdown -r: restart
+sudo shutdown -h 20: shutdown computer after 20 minutes
+shutdown -c: cancel the shutdown
+
 
