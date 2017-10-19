@@ -107,3 +107,36 @@ sudo shutdown -h 20: shutdown computer after 20 minutes
 shutdown -c: cancel the shutdown
 
 
+Bash script: "https://www.youtube.com/watch?v=57sp8Y0GL40&list=PLTXMX1FE5Hj5ZJDt_WMbioFpdWO5SGy8r&index=8"
+
+  start with #!/bin/bash
+  #comment
+  #comment
+  read -p "Press Enter to start" # pause the system,should do something to continue
+  echo -e "Please enter your name: " # $add "Please enter your name: "
+  read name
+  echo "Nice to meet you, $name" # $name: refer to variable name 
+  #save this file as hello
+  
+commande line: chmod +x hello
+  
+free -h && df -h: print everything in system as human readable
+  
+    start with #!/bin/bash
+    #comment
+    #comment
+    clear 
+    echo "Memory Usage:"
+    free -h
+    echo "Disk Usage"
+    df -h
+    # save as resources
+    
+commande line: chmod +x resources
+run resource file: ./resource
+
+# sudo apt update && sudo apt upgrade &&:
+
+
+
+  
