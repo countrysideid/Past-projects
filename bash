@@ -29,6 +29,8 @@ sudo: root user has absolutely control
 ls -s -a: list all files including hidden files
 ls -l: long format
 clear: clear screen
+unzip: unzip zip file
+tar xvzf file.tar.gz: extract gz file.
 
 permission
 
