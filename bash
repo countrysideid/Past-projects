@@ -23,6 +23,7 @@ popd: back to previously
 cat: concat f1 f2.
 |, > : 
 
+curl -O websitelink: download websitelink
 echo: add text to file. eg: echo text > file
 cp: cp *.txt ~/
 sudo: root user has absolutely control 
