@@ -23,7 +23,8 @@ popd: back to previously
 cat: concat f1 f2.
 |, > : 
 
-curl -O websitelink: download websitelink
+curl --user fweital@gmail.com:pass https://developer.nvidia.com/rdp/assets/cudnn-7.5-linux-x64-v5.0-ga-tgz
+
 echo: add text to file. eg: echo text > file
 cp: cp *.txt ~/
 sudo: root user has absolutely control 
