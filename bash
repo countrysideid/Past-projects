@@ -23,7 +23,7 @@ popd: back to previously
 cat: concat f1 f2.
 |, > : 
 
-curl --user fweital@gmail.com:pass https://developer.nvidia.com/rdp/assets/cudnn-7.5-linux-x64-v5.0-ga-tgz
+curl --user fweital@gmail.com:pass https://developer.nvidia.com/compute/machine-learning/cudnn/secure/v6/prod/8.0_20170307/cudnn-8.0-linux-x64-v6.0-tgz
 
 echo: add text to file. eg: echo text > file
 cp: cp *.txt ~/
