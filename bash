@@ -12,8 +12,8 @@ However, the pipe character | can represent different things. Double pipe (||), 
 
 
 
-| 
-
+alias sudo='sudo env PATH=$PATH': add path
+ln -s /usr/local/bin/<stuff> /usr/bin/<stuff>: symbolic two paths
 
 mkdir: create folder
 touch: create files
