@@ -38,6 +38,7 @@ permission
 
 chmod: change permission of the file. 7: read, write and execute. 6: read and write. eg: chmod 760 junk.txt.
 
+alias python3: convert to python2.7
 
 man, info: manual for quick reference. eg: info(man) ls
 
