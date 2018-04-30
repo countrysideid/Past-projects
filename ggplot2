@@ -1,0 +1,13 @@
+source: http://tutorials.iq.harvard.edu/R/Rgraphics/Rgraphics.html
+
+The Grammar Of Graphics?
+
+
+  data
+  aesthetic mapping
+  geometric object
+  statistical transformations
+  scales
+  coordinate system
+  position adjustments
+  faceting
