@@ -70,3 +70,23 @@ Or, if you want that to be a line by line generator with a regex:
 
 with open("words.txt") as f:
     (word for line in f for word in re.findall(r'\w+', line))
+    
+    
+ *args and **kwargs in python explained:
+ 
+ What does variable mean here is that you do not know before hand that how many arguments can be passed to your 
+ function by the user so in this case you use these two keywords. *args is used to send a non-keyworded variable 
+ length argument list to the function. Here’s an example to help you get a clear idea.
+ 
+ Usage of **kwargs
+**kwargs allows you to pass keyworded variable length of arguments to a function. You should use **kwargs if you want to handle named arguments in a function. Here is an example to get you going with it:
+
+def greet_me(**kwargs):
+    if kwargs is not None:
+        for key, value in kwargs.iteritems():
+            print "%s == %s" %(key,value)
+ 
+>>> greet_me(name="yasoob")
+name == yasoob
+
+cite: https://pythontips.com/2013/08/04/args-and-kwargs-in-python-explained/
